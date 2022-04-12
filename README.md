@@ -35,7 +35,7 @@ Counties were votes were cast:
     - Diana DeGette
     - Raymon Anthony Doane
 
-- The candidate results were:
+- The candidate results are as follows:
     - Charles Casper Stockham received 23.0% of the vote, that is 85,213 votes.
     - Diana DeGette received 73.8% of the vote, that is 272,892 votes.
     - Raymon Anthony Doane received 3.1%  of the vote, that is 11,606 votes.
@@ -53,10 +53,10 @@ Although the current data entry (CSV file) is enough to handle one state, it may
 Currently, the script is creating a txt file as a final report. This report includes the list of candidates and the amount of votes for each of them. Also, the report includes the county with the largest share of votes. Although this works for a few counties, a report like this for a national election is not practical. The suggestion is to produce a CSV file, containing relevant data as columns. This way, the data can be exported into Excel and create some reports (graphs, dahsboards) depicting the whole story about the election. Of course, we can print a highlights summary, describing the winners. But, for general statistics, voting share, and percentages, a CSV file tobe exported into Excel may be a better idea.
 
 ### 3 - PDF reports
-A PDF report containing the details may not be friendly enough as a CSV file.  But, creating a PDF wth the highlights can be very useful. The main purpose of the PDF report will be to convey the highlights of the election: winners, counties/states with the biggest share of votes, and so on. Creating the CSV file, together with a PDF report like the one we are describing can be a good idea. 
+A PDF report containing the details may not be friendly enough as a CSV file.  But, creating a PDF with the highlights can be very useful. The main purpose of the PDF report will be to convey the highlights of the election: winners, counties/states with the biggest share of votes, and so on. Creating the CSV file, together with a PDF report like the one we are describing can be a good idea. 
 
 ### 4 - Database connectivity
 Our Python script can be enabled to connect to a remote database, read election data and perform the same analysis. The final report can also be inserted into the database. This will allow us to be more efficient when handling the data. Also, having access to a database can enable us to store historic data more easily. 
 
 ## Conclusion
-As we explore during this module, creating a Python script to analyze data is relatively easy. This, combined with a well defined and structured data source, makes incredibly easy to read data and perform basic analysis. When designing software, it us always a good practice to write software which is scalable, that means, code that can be easily modified or extended to perform more complex tasks. And that is precisely what we have done for this challenge. This script is a good start. This is the foundation to implement richer features that will allow us to produce analysis with bigger data sets or perform largest calculations. 
+As we explore during this module, creating a Python script to analyze data is relatively easy. This, combined with a well defined and structured data source, makes reading data and performing basic analysis an effortless task. When designing software, it us always a good practice to write software which is scalable, that means, code that can be easily modified or extended to perform more complex tasks. And that is precisely what we have done for this challenge. This script is a good start. This is the foundation for implementing richer features that will allow us to produce analysis with bigger data sets or perform largest calculations. 
