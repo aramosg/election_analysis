@@ -43,6 +43,13 @@ Counties were votes were cast:
 - The **winner** of the election was:
     - Candidate **Diana DeGette**, who received **73.8%** of the vote, with **272,892 votes**.
 
+### Evidence
+Screenshot showing the report printed out to the console
+![Election analysis printed out to the console](/resources/PyPoll_election_analysis_console.png)
+
+Screenshot showing the report printed out to the TXT file
+![Election analysis printed out to the console](/resources/PyPoll_election_analysis_txt.png)
+
 ## Election-Audit Summary
 Although this script is powerful enough to hande a medium size election, some changes may be needed to be able to handle a national election. The following list is a proposal of modifications to enable this script to handle bigger elections:
 
